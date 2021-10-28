@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="21.5" viewBox="0 0 21.5 21.5">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#c1c1c1;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="nanu_main_plus_icon" transform="translate(-156.403 -327.123)">
+        <g id="그룹_725" data-name="그룹 725" transform="translate(161.636 332.355)">
+            <path id="선_176" data-name="선 176" class="cls-1" transform="translate(5.518)" d="M0 0v11.035"/>
+            <path id="선_177" data-name="선 177" class="cls-1" transform="translate(0 5.518)" d="M11.035 0H0"/>
+        </g>
+        <circle id="타원_180" data-name="타원 180" class="cls-1" cx="10" cy="10" r="10" transform="translate(157.153 327.873)"/>
+    </g>
+</svg>
