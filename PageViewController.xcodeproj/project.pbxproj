@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F26E1852272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26E1851272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift */; };
 		F2969BC7272AA45A00F37AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BC6272AA45A00F37AAF /* AppDelegate.swift */; };
 		F2969BC9272AA45A00F37AAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BC8272AA45A00F37AAF /* SceneDelegate.swift */; };
 		F2969BCB272AA45A00F37AAF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BCA272AA45A00F37AAF /* MainViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F26E1851272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanuLongPressGestureRecognizer.swift; sourceTree = "<group>"; };
 		F2969BC3272AA45A00F37AAF /* PageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2969BC6272AA45A00F37AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2969BC8272AA45A00F37AAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				F2969BF6272AA4B600F37AAF /* BatteryViewController.swift */,
 				F2969BF8272AA4CC00F37AAF /* BikeViewController.swift */,
 				F2969BFA272AA5F000F37AAF /* PageViewController.swift */,
+				F26E1851272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift */,
 			);
 			path = PageViewController;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				F2969BC7272AA45A00F37AAF /* AppDelegate.swift in Sources */,
 				F2969BF9272AA4CC00F37AAF /* BikeViewController.swift in Sources */,
 				F2969BFB272AA5F000F37AAF /* PageViewController.swift in Sources */,
+				F26E1852272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift in Sources */,
 				F2969BC9272AA45A00F37AAF /* SceneDelegate.swift in Sources */,
 				F2969BF7272AA4B600F37AAF /* BatteryViewController.swift in Sources */,
 			);
