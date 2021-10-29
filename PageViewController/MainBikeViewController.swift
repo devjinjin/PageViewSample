@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BikeViewController: UIViewController {
+class MainBikeViewController: UIViewController {
 
     @IBOutlet weak var bikeRoundView: UIView!
     override func viewDidLoad() {

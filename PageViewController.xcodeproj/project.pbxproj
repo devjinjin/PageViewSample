@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F26E1852272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26E1851272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift */; };
+		F26E185A272BFE6C0092B619 /* NanuPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26E1859272BFE6C0092B619 /* NanuPageControl.swift */; };
 		F2969BC7272AA45A00F37AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BC6272AA45A00F37AAF /* AppDelegate.swift */; };
 		F2969BC9272AA45A00F37AAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BC8272AA45A00F37AAF /* SceneDelegate.swift */; };
 		F2969BCB272AA45A00F37AAF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BCA272AA45A00F37AAF /* MainViewController.swift */; };
@@ -17,9 +18,9 @@
 		F2969BDE272AA45E00F37AAF /* PageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BDD272AA45E00F37AAF /* PageViewControllerTests.swift */; };
 		F2969BE8272AA45E00F37AAF /* PageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BE7272AA45E00F37AAF /* PageViewControllerUITests.swift */; };
 		F2969BEA272AA45E00F37AAF /* PageViewControllerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BE9272AA45E00F37AAF /* PageViewControllerUITestsLaunchTests.swift */; };
-		F2969BF7272AA4B600F37AAF /* BatteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BF6272AA4B600F37AAF /* BatteryViewController.swift */; };
-		F2969BF9272AA4CC00F37AAF /* BikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BF8272AA4CC00F37AAF /* BikeViewController.swift */; };
-		F2969BFB272AA5F000F37AAF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BFA272AA5F000F37AAF /* PageViewController.swift */; };
+		F2969BF7272AA4B600F37AAF /* MainBatteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BF6272AA4B600F37AAF /* MainBatteryViewController.swift */; };
+		F2969BF9272AA4CC00F37AAF /* MainBikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BF8272AA4CC00F37AAF /* MainBikeViewController.swift */; };
+		F2969BFB272AA5F000F37AAF /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2969BFA272AA5F000F37AAF /* MainPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		F26E1851272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanuLongPressGestureRecognizer.swift; sourceTree = "<group>"; };
+		F26E1859272BFE6C0092B619 /* NanuPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanuPageControl.swift; sourceTree = "<group>"; };
 		F2969BC3272AA45A00F37AAF /* PageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2969BC6272AA45A00F37AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2969BC8272AA45A00F37AAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,9 +56,9 @@
 		F2969BE3272AA45E00F37AAF /* PageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2969BE7272AA45E00F37AAF /* PageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewControllerUITests.swift; sourceTree = "<group>"; };
 		F2969BE9272AA45E00F37AAF /* PageViewControllerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewControllerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F2969BF6272AA4B600F37AAF /* BatteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryViewController.swift; sourceTree = "<group>"; };
-		F2969BF8272AA4CC00F37AAF /* BikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeViewController.swift; sourceTree = "<group>"; };
-		F2969BFA272AA5F000F37AAF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F2969BF6272AA4B600F37AAF /* MainBatteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBatteryViewController.swift; sourceTree = "<group>"; };
+		F2969BF8272AA4CC00F37AAF /* MainBikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBikeViewController.swift; sourceTree = "<group>"; };
+		F2969BFA272AA5F000F37AAF /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +116,11 @@
 				F2969BCF272AA45E00F37AAF /* Assets.xcassets */,
 				F2969BD1272AA45E00F37AAF /* LaunchScreen.storyboard */,
 				F2969BD4272AA45E00F37AAF /* Info.plist */,
-				F2969BF6272AA4B600F37AAF /* BatteryViewController.swift */,
-				F2969BF8272AA4CC00F37AAF /* BikeViewController.swift */,
-				F2969BFA272AA5F000F37AAF /* PageViewController.swift */,
+				F2969BF6272AA4B600F37AAF /* MainBatteryViewController.swift */,
+				F2969BF8272AA4CC00F37AAF /* MainBikeViewController.swift */,
+				F2969BFA272AA5F000F37AAF /* MainPageViewController.swift */,
 				F26E1851272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift */,
+				F26E1859272BFE6C0092B619 /* NanuPageControl.swift */,
 			);
 			path = PageViewController;
 			sourceTree = "<group>";
@@ -270,13 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26E185A272BFE6C0092B619 /* NanuPageControl.swift in Sources */,
 				F2969BCB272AA45A00F37AAF /* MainViewController.swift in Sources */,
 				F2969BC7272AA45A00F37AAF /* AppDelegate.swift in Sources */,
-				F2969BF9272AA4CC00F37AAF /* BikeViewController.swift in Sources */,
-				F2969BFB272AA5F000F37AAF /* PageViewController.swift in Sources */,
+				F2969BF9272AA4CC00F37AAF /* MainBikeViewController.swift in Sources */,
+				F2969BFB272AA5F000F37AAF /* MainPageViewController.swift in Sources */,
 				F26E1852272BD9B40092B619 /* NanuLongPressGestureRecognizer.swift in Sources */,
 				F2969BC9272AA45A00F37AAF /* SceneDelegate.swift in Sources */,
-				F2969BF7272AA4B600F37AAF /* BatteryViewController.swift in Sources */,
+				F2969BF7272AA4B600F37AAF /* MainBatteryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

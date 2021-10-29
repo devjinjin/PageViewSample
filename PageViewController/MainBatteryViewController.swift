@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BatteryViewController: UIViewController, UIGestureRecognizerDelegate {
+class MainBatteryViewController: UIViewController, UIGestureRecognizerDelegate {
 
     @IBOutlet weak var secondBatteryInfoView: UIView!
     @IBOutlet weak var firstBatteryInfoView: UIView!
@@ -24,11 +24,11 @@ class BatteryViewController: UIViewController, UIGestureRecognizerDelegate {
         super.viewDidLoad()
 
         
-        initBatteryView(firstBatteryInfoView, BatteryViewController.EVENT_FIRST_GROUP_CLICK )
-        initBatteryView(secondBatteryInfoView,  BatteryViewController.EVENT_SECOND_GROUP_CLICK)
+        initBatteryView(firstBatteryInfoView, MainBatteryViewController.EVENT_FIRST_GROUP_CLICK )
+        initBatteryView(secondBatteryInfoView,  MainBatteryViewController.EVENT_SECOND_GROUP_CLICK)
         
-        initBatteryView(firstBatteryView, BatteryViewController.EVENT_BATTERY_ADD)
-        initBatteryView(secondBatteryView, BatteryViewController.EVENT_BATTERY_ADD)
+        initBatteryView(firstBatteryView, MainBatteryViewController.EVENT_BATTERY_ADD)
+        initBatteryView(secondBatteryView, MainBatteryViewController.EVENT_BATTERY_ADD)
 
         initBatteryStatusView(firstStatusView)
         initBatteryStatusView(secondStatusView)
@@ -68,7 +68,7 @@ class BatteryViewController: UIViewController, UIGestureRecognizerDelegate {
     @objc func longPress(_ gestureRecognizer: NanuLongPressGestureRecognizer) {
             let tag = gestureRecognizer.view?.tag
             switch tag! {
-            case BatteryViewController.EVENT_BATTERY_ADD :
+            case MainBatteryViewController.EVENT_BATTERY_ADD :
                 if gestureRecognizer.state == .began {
                     gestureRecognizer.isPressCancel = false
                     gestureRecognizer.view?.transform = CGAffineTransform(scaleX: 0.95, y: 0.95)
@@ -83,7 +83,7 @@ class BatteryViewController: UIViewController, UIGestureRecognizerDelegate {
                     gestureRecognizer.isPressCancel = true
                 }
                 break
-            case BatteryViewController.EVENT_FIRST_GROUP_CLICK :
+            case MainBatteryViewController.EVENT_FIRST_GROUP_CLICK :
                 if gestureRecognizer.state == .began {
                     gestureRecognizer.isPressCancel = false
                 }else if gestureRecognizer.state == .ended  {
@@ -96,7 +96,7 @@ class BatteryViewController: UIViewController, UIGestureRecognizerDelegate {
                     gestureRecognizer.isPressCancel = true
                 }
                 break
-            case BatteryViewController.EVENT_SECOND_GROUP_CLICK :
+            case MainBatteryViewController.EVENT_SECOND_GROUP_CLICK :
                 if gestureRecognizer.state == .began {
                     gestureRecognizer.isPressCancel = false
                 }else if gestureRecognizer.state == .ended  {

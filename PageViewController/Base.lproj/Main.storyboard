@@ -22,35 +22,44 @@
                                     <constraint firstAttribute="height" constant="165" id="ZDY-hy-Ib8"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="GfK-82-fpX" kind="embed" id="myF-Pl-VL6"/>
+                                    <segue destination="GfK-82-fpX" kind="embed" identifier="MainPageViewController" id="myF-Pl-VL6"/>
                                 </connections>
                             </containerView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="ePJ-Yn-Gtl">
+                                <rect key="frame" x="276.5" y="217" width="137.5" height="26"/>
+                                <color key="tintColor" red="0.2741461992" green="0.56024688479999996" blue="0.74120193720000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ygq-gS-Hi0"/>
                         <color key="backgroundColor" red="0.97254901960784312" green="0.97254282240000001" blue="0.97254937890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="ePJ-Yn-Gtl" firstAttribute="top" secondItem="dah-FC-KBD" secondAttribute="bottom" constant="8" symbolic="YES" id="2MW-4h-dLK"/>
                             <constraint firstItem="dah-FC-KBD" firstAttribute="top" secondItem="ygq-gS-Hi0" secondAttribute="top" id="2Up-oJ-xpe"/>
                             <constraint firstItem="dah-FC-KBD" firstAttribute="leading" secondItem="ygq-gS-Hi0" secondAttribute="leading" id="RB4-5N-ptk"/>
+                            <constraint firstItem="ygq-gS-Hi0" firstAttribute="trailing" secondItem="ePJ-Yn-Gtl" secondAttribute="trailing" id="RU6-Xt-eA1"/>
                             <constraint firstItem="ygq-gS-Hi0" firstAttribute="trailing" secondItem="dah-FC-KBD" secondAttribute="trailing" id="ekR-su-FRF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageControl" destination="ePJ-Yn-Gtl" id="RGY-y7-xQX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvG-Be-5jH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-588" y="42"/>
+            <point key="canvasLocation" x="-588.40579710144937" y="41.517857142857139"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Main Page View Controller-->
         <scene sceneID="NDo-BS-cpc">
             <objects>
-                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="GfK-82-fpX" customClass="PageViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="MainPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="GfK-82-fpX" customClass="MainPageViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZVk-qV-0D9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="245" y="-306"/>
         </scene>
-        <!--Battery View Controller-->
+        <!--Main Battery View Controller-->
         <scene sceneID="egK-Gj-DGg">
             <objects>
-                <viewController storyboardIdentifier="BatteryViewController" id="HAl-Fq-Hfn" customClass="BatteryViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainBatteryViewController" id="HAl-Fq-Hfn" customClass="MainBatteryViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EZm-Yw-HcS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="165"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -383,10 +392,10 @@
             </objects>
             <point key="canvasLocation" x="263.768115942029" y="-47.879464285714285"/>
         </scene>
-        <!--Bike View Controller-->
+        <!--Main Bike View Controller-->
         <scene sceneID="j2i-DT-wXX">
             <objects>
-                <viewController storyboardIdentifier="BikeViewController" id="fSV-ff-8q8" customClass="BikeViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainBikeViewController" id="fSV-ff-8q8" customClass="MainBikeViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jhP-aw-Gja">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="165"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

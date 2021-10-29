@@ -7,7 +7,13 @@
 
 import UIKit
 
-class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
+protocol MainPageViewDelegate {
+    func pageChange(_ current : Int)
+}
+
+class MainPageViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
+    
+    var pageDelegate : MainPageViewDelegate?
     
     var currentIndex : Int {
            guard let vc = viewControllers?.first else { return 0 }
@@ -38,14 +44,15 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
 //        if completed {
 //           completeHandler?(currentIndex)
 //       }
+        pageDelegate?.pageChange(currentIndex)
     }
 
     let viewsList : [UIViewController] = {
             
             let storyBoard = UIStoryboard(name: "Main", bundle: nil)
            
-            let vc2 = storyBoard.instantiateViewController(withIdentifier: "BikeViewController")
-            let vc1 = storyBoard.instantiateViewController(withIdentifier: "BatteryViewController")
+            let vc2 = storyBoard.instantiateViewController(withIdentifier: "MainBikeViewController")
+            let vc1 = storyBoard.instantiateViewController(withIdentifier: "MainBatteryViewController")
 
             
             return [vc1, vc2]
